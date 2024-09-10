@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-div">
+
+        <!-- This is our game heading -->
+         <div class="navbar">
+            <div class="logo">
+                <h1 class="logo-name">Code-<span id="part-2">collector</span></h1>
+            </div>
+             <h1 class="game-name">Stone Paper Scissior</h1>
+         </div>
+    
+       <div class="choices">
+    <!-- Here we add our first imag of stone -->
+            <div class="choice" id="Stone">
+                <img src="rock.png">
+            </div>
+    <!-- Here we add our second imag of stone -->
+            <div class="choice" id="Paper">
+                <img src="paper.png">
+            </div>
+    <!-- Here we add our third imag of stone -->
+            <div class="choice" id="Scissors">
+                <img src="scissors.png">
+            </div>
+    
+        </div>
+    <!-- Here we are starting to add our score bord div -->
+        <div class="socre-bord">
+    
+            <div class="score">
+                <p id="user-score">0</p>
+                <p style="color: black;">You</p>
+            </div>
+    
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p style="color: black;">comp</p>
+            </div>
+    
+        </div>
+    <!-- Here  we are starting to add our message box-->
+     <div class="message-box">
+        <p id="msg">Click on any Image</p>
+     </div>
+    
+    
+          <script src="script.js"></script>
+    </div>
+</body>
+</html>
